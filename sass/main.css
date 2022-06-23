@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.header .about, .header {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 20px;
+}
+.header img {
+  cursor: pointer;
+}
+.header .nav-icon .menu {
+  margin-right: 10px;
+}
+.header .about {
+  order: 3;
+}
+.header .about .avatar {
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.header .about .avatar:hover {
+  border: 2px solid hsl(26deg, 100%, 55%);
+}
+.header .nav-bar {
+  display: none;
+}
+@media (min-width: 376px) and (max-width: 768px) {
+  .header .about .avatar {
+    margin-left: 20px;
+    width: 40px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
+  .header {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .about .avatar {
+    width: 50px;
+    margin-left: 30px;
+  }
+  .header .nav-bar {
+    display: flex;
+    margin-left: -10%;
+    font-size: 14px;
+  }
+  .header .nav-bar .nav-list {
+    display: flex;
+    list-style: none;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .header .nav-bar .nav-list > * > * {
+    text-decoration: none;
+    color: hsl(220deg, 14%, 75%);
+  }
+}
+@media (min-width: 1441px) {
+  .header {
+    width: 80%;
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+    margin: 10% auto;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .about .avatar {
+    width: 50px;
+    margin-left: 30px;
+  }
+  .header .nav-bar {
+    display: flex;
+    transform: translateX(-100px);
+    font-size: 15px;
+  }
+  .header .nav-bar .nav-list {
+    display: flex;
+    list-style: none;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .header .nav-bar .nav-list > * > * {
+    text-decoration: none;
+    color: hsl(220deg, 14%, 75%);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  body > * {
+    max-width: 900px;
+    margin: auto;
+  }
+}
+@media (min-width: 1441px) {
+  body {
+    background-color: hsl(26deg, 100%, 55%);
+  }
+  body > * {
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 50px;
+  }
+}/*# sourceMappingURL=main.css.map */

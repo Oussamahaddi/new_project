@@ -1,0 +1,13 @@
+// media query
+
+@mixin mq($min, $max) {
+    @media (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
+
+@mixin larger($size) {
+    @media (min-width: $size) {
+        @content;
+    }
+}

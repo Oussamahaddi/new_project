@@ -1,0 +1,27 @@
+
+// media query
+$mobile: 375px;
+$minTablet: 376px;
+$maxTablet: 768px;
+$minDesktop: 769px;
+$maxDesktop: 1440px;
+$larger: 1441px;
+
+
+// color that need;
+/// primary color;
+$orange: hsl(26, 100%, 55%);
+$paleOrange: hsl(25, 100%, 94%);
+
+/// secondary;
+$darkBlue: hsl(220, 13%, 13%);
+$darkGray: hsl(219, 9%, 45%);
+$grayishBlue: hsl(220, 14%, 75%);
+$lightGray: hsl(223, 64%, 98%);
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+
+
+// var 
+
+$mainPadding: 30px 0;
